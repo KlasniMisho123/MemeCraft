@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  background-color: #4D869C;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #0c6809;
+  padding: 20px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.craft-icon {
+  margin-bottom: -5px;
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.content-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.content-background {
+  align-items: center;
+  background-color: #EEF7FF;
+  height: 100%;
+  padding: 24px 32px;
+  border: 2px solid black;
+  border-style: dashed;
+  margin-top: 5%;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-btn {
+  margin-top: 1px;
+  border: 1px black solid;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.dropdown {
+  padding: 5px 0px 5px 5px;
+  
+}
