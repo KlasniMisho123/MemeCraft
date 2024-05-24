@@ -1,5 +1,6 @@
 import Header from "./header"
 import CreateArea from "./CreateArea";
+import Footer from "./footer";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <CreateArea />
+      <Footer />
     </div>
   );
 }

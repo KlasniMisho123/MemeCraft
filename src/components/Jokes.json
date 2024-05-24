@@ -1,43 +1,48 @@
 [
     {
-        "id": 1,
-        "joke": "Why don't scientists trust atoms? Because they make up everything!"
-    },
-    {
-        "id": 2,
-        "joke": "Why did the scarecrow win an award? Because he was outstanding in his field!"
-    },
-    {
-        "id": 3,
-        "joke": "Why don't skeletons fight each other? They don't have the guts."
-    },
-    {
-        "id": 4,
-        "joke": "What do you call fake spaghetti? An impasta!"
-    },
-    {
-        "id": 5,
-        "joke": "Why did the bicycle fall over? Because it was two-tired!"
-    },
-    {
-        "id": 6,
-        "joke": "What do you call cheese that isn't yours? Nacho cheese."
-    },
-    {
-        "id": 7,
-        "joke": "How does a penguin build its house? Igloos it together."
-    },
-    {
-        "id": 8,
-        "joke": "Why don't some couples go to the gym? Because some relationships don't work out."
-    },
-    {
-        "id": 9,
-        "joke": "Why was the math book sad? Because it had too many problems."
-    },
-    {
-        "id": 10,
-        "joke": "What do you call a belt made out of watches? A waist of time."
-    }
-]
-
+        "type": "MathJokes",
+        "jokes": [
+          "Why was the math book sad? Because it had too many problems.",
+          "Parallel lines have so much in common. It's a shame they'll never meet.",
+          "Why was the equal sign so humble? Because it knew it wasn't less than or greater than anyone else.",
+          "Why was the obtuse angle so depressed? It was never right.",
+          "Why did the two fours skip lunch? They already eight.",
+          "What did one math book say to the other? Don't bother me, I've got my own problems!",
+          "Why was the geometry book always sad? It could never find a solution to its problems.",
+          "What is a math teacher's favorite place in New York City? Times Square.",
+          "Why was the student's report card always so wrinkled? Because it kept multiplying by itself!",
+          "Why was the math lecture so long? Because the professor kept going off on a tangent."
+        ]
+      },
+      {
+        "type": "ScienceJokes",
+        "jokes": [
+          "Why did the scarecrow win an award? Because he was outstanding in his field.",
+          "Why don't scientists trust atoms? Because they make up everything.",
+          "Why did the bicycle fall over? It was two-tired.",
+          "Why did the physics teacher break up with the biology teacher? There was no chemistry.",
+          "What do you get when you mix sulfur, tungsten, and silver? SWAG.",
+          "Why did the doctor carry a red pen? In case they needed to draw blood.",
+          "What did one ocean say to the other ocean? Nothing, they just waved.",
+          "Why did the bacteria take the elevator? Because it was a cell-tower.",
+          "Why did the astronaut break up with his girlfriend? Because he needed space.",
+          "What do you call a fish wearing a crown? A king-fish."
+        ]
+      },
+      {
+        "type": "GameJokes",
+        "jokes": [
+          "Why was the computer cold? It left its Windows open.",
+          "Why was the JavaScript developer sad? Because he didn't know how to 'null' his feelings.",
+          "Why did the console gamer break up with the PC gamer? He just couldn't 'console' him anymore.",
+          "Why did the gamer go to jail? He couldn't stop casing.",
+          "Why did the gamer quit his job? He couldn't handle the pixels.",
+          "Why did the game console go to school? To improve its graphics.",
+          "Why did the gamer cross the road? To render the other side.",
+          "Why did the gamer break up with his girlfriend? She didn't respawn.",
+          "Why did the game character go to therapy? He had too many issues.",
+          "Why did the gamer bring a ladder to the bar? He heard the drinks were on the house."
+        ]
+      }
+  ]
+  

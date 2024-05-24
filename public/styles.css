@@ -26,6 +26,14 @@ header h1 {
   font-weight: 200;
 }
 
+.column-flex {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 77vh;
+  gap: 70px;
+}
 .content-flex {
   display: flex;
   justify-content: center;
@@ -36,7 +44,7 @@ header h1 {
   background-color: #EEF7FF;
   height: 100%;
   padding: 24px 32px;
-  border: 2px solid black;
+  border: 2px solid rgb(146, 15, 15);
   border-style: dashed;
   margin-top: 5%;
 }
@@ -57,5 +65,32 @@ header h1 {
 
 .dropdown {
   padding: 5px 0px 5px 5px;
-  
+}
+
+.random-joke {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #EEF7FF;
+  border: rgb(146, 15, 15) 1px solid;
+  padding:  16px;
+  border-radius: 4px;
+}
+
+.joke-header {
+  color: #028391;
+}
+
+
+.footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  color: #6c757d;
 }
