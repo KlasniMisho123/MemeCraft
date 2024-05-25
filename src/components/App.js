@@ -10,9 +10,9 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("");
+        const response = await axios.get("/api");
         const data = response.data;
-        console.log("Fetched data:", data);
+        alert("Fetched data:", data);
 
         if (Array.isArray(data)) {
           setBackendData(data);
@@ -33,7 +33,7 @@ function App() {
       {(typeof backendData.users === "undefined") ? (
         <p>Loading...</p>
       ) : (
-        backendData.users.map((user, i) => (
+        backendData.users.map(() => (
           <div>
           <Header />
           <CreateArea />
